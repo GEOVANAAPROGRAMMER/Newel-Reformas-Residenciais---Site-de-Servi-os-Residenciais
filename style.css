@@ -62,3 +62,31 @@ body {
     margin: 0px;
     border: 0.4px solid aliceblue;
 }
+
+.conteudo {
+    border-top: 2px solid #ded0f0;
+}
+
+.conteudo-um {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px 80px 50px;
+    margin: 200px 90px 300px 90px;
+    align-items: center;
+    border: 0.4px solid aliceblue;
+}
+
+.conteudo-um-titulo {
+    display: flex;
+    font-size: 60px;
+    padding: 10px 50px 10px 50px;
+    word-spacing: 6px;
+    /* Espaçamento entre palavras */
+}
+
+.conteudo-um-semititulo {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    padding: 10px 50px 10px 50px;
+}
