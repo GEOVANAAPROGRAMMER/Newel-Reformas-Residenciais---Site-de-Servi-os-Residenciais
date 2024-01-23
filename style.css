@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* Resete do CSS padrão*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Raleway;
+    font-size: 100%;
+    /* Mantendo o tamanho padrão da fonte, sem aumentar ou diminuir*/
+    background: rgb(43, 40, 40, 1);
+    /* Cor de fundo*/
+    color: aliceblue;
+    /* Cor da letra */
+}
+
+.cabecalho {
+    display: flex;
+    /* Para usar o Flexbox*/
+    align-items: center;
+    /* Alinha os intens no centro */
+    justify-content: space-between;
+    /* O primeiro item no início do contêiner e o último item no final, e os espaços entre os itens são maximizados */
+    align-items: center;
+}
+
+.cabecalho-logo {
+    display: flex;
+    flex-direction: column;
+    /* Centraliza o texto verticalmente */
+    text-align: flex-start;
+    /* Deixa os itens alinhados no canto (inicio) do conteiner */
+    font-size: 19px;
+    /* Adicione o tamanho desejado da fonte */
+    padding: 2px 19px 15px;
+    margin: 20px 90px 30px 10px;
+}
+
+.cabecalho-logo span {
+    display: block;
+    /* Faz com que cada palavra fique em uma linha separada */
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+    /* Espaçamento entre os itens */
+    padding: 15px 22px 15px 120px;
+    margin: 20px 50px 30px 0;
+    /* Aumenta a margem à direita para afastar do canto direito */
+    align-items: baseline;
+}
+
+.cabecalho-menu-item-ligar {
+    display: flex;
+    padding: 15px 50px 15px 50px;
+    margin: 0px;
+    border: 0.4px solid aliceblue;
+}
