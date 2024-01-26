@@ -12,7 +12,7 @@ body {
     font-family: Raleway;
     font-size: 100%;
     /* Mantendo o tamanho padrão da fonte, sem aumentar ou diminuir*/
-    background: rgb(43, 40, 40, 1);
+    background: #262525;
     /* Cor de fundo*/
     color: aliceblue;
     /* Cor da letra */
@@ -96,13 +96,15 @@ body {
     display: flex;
     flex-direction: row;
     padding: 0px;
-    margin: 72px 80px 72px 80px;
+    margin: 72px 80px 0px 80px;
     align-items: flex-start;
     border: 0.1px solid #ad9f88;
 }
 
 .conteudo-dois-imagem {
     border: 0.1px solid #ad9f88;
+    border-bottom: none;
+    /* ou border-bottom: 0; --> Tirando a borda de baixo */
 }
 
 .conteudo-dois-textos {
@@ -130,9 +132,67 @@ body {
 
 .conteudo-dois-info {
     display: inline-block;
-    Font-size: 14px;
+    font-size: 14px;
     padding: 20px 54px 20px 54px;
     margin: 10px 290px 10px 80px;
     background-color: #ad9f88;
     color: black;
+}
+
+.conteudo-tres {
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteudo-tres-item-casa {
+    padding: 20px 54px 20px 54px;
+    margin: 0px 290px 10px 80px;
+    border: 0.1px solid #ad9f88;
+    border-top: none;
+    /* ou border-top: 0; --> Tirando a borda de cima */
+}
+
+.conteudo-tres-casa {
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid #ad9f88;
+    padding: 0px;
+    margin: 0px;
+    border: 0.1px solid #ad9f88;
+    
+}
+
+.conteudo-tres-lista-casa {
+    display: flex;
+    border: 0.1px solid #ad9f88;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.conteudo-tres-quebra-cabeca {
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid #ad9f88;
+    padding: 20px 65px 20px 95px;
+    border: 0.1px solid #ad9f88;
+}
+
+.conteudo-tres-quadrado {
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid #ad9f88;
+    padding: 20px 65px 20px 95px;
+    border: 0.1px solid #ad9f88;
+}
+
+.conteudo-tres-estatua {
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid #ad9f88;
+    padding: 20px 65px 20px 95px;
+    border: 0.1px solid #ad9f88;
 }
