@@ -142,51 +142,99 @@ body {
 .conteudo-tres {
     display: flex;
     flex-direction: row;
-    gap: 190px;
     padding: 0px;
     margin: 0px;
 }
 
 .conteudo-tres-item-casa {
-    padding: 20px 54px 20px 54px;
-    margin: 0px 290px 10px 80px;
+    padding: 20px 88px 74px 88px;
+    margin: 0px 0px 10px 80px;
     border: 0.1px solid #ad9f88;
     border-top: none;
     /* ou border-top: 0; --> Tirando a borda de cima */
+    justify-content: center;
 }
 
-.conteudo-tres-casa {
+.conteudo-tres-casa-img {
     display: flex;
     flex-direction: column;
-    border: 0.1px solid #ad9f88;
-    padding: 0px;
+    padding: 31px 0px 8px 0px;
     margin: 0px;
-    border: 0.1px solid #ad9f88;
-    
+
 }
 
 .conteudo-tres-lista-casa {
     display: flex;
-    border: 0.1px solid #ad9f88;
     padding: 0px;
     margin: 0px;
-    align-items: center;
+    text-align: center;
+    /* Deixa os itens alinhados no canto (inicio) do conteiner */
 }
 
-.conteudo-tres-quebra-cabeca {
-    display: flex;
-    flex-direction: column;
-    border: 0.1px solid #ad9f88;
-    padding: 20px 65px 20px 95px;
-    border: 0.1px solid #ad9f88;
+.conteudo-tres-lista-casa span {
+    display: block;
+    /* Faz com que cada palavra fique em uma linha separada */
 }
 
-.conteudo-tres-quadrado {
+.conteudo-tres-item-quebra-cabeca {
+    padding: 20px 87px 74px 88px;
+    margin: 0px 0px 10px 0px;
+    border: 0.1px solid #ad9f88;
+    border-top: none;
+    /* ou border-top: 0; --> Tirando a borda de cima */
+    border-left: none;
+    justify-content: center;
+}
+
+.conteudo-tres-quebra-cabeca-img {
     display: flex;
     flex-direction: column;
+    padding: 31px 0px 8px 0px;
+    margin: 0px;
+
+}
+
+.conteudo-tres-lista-quebra-cabeca {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    /* Deixa os itens alinhados no canto (inicio) do conteiner */
+}
+
+.conteudo-tres-lista-quebra-cabeca span {
+    display: block;
+    /* Faz com que cada palavra fique em uma linha separada */
+}
+
+.conteudo-tres-item-quadrado {
+    padding: 20px 87px 74px 88px;
+    margin: 0px 0px 10px 0px;
     border: 0.1px solid #ad9f88;
-    padding: 20px 65px 20px 95px;
-    border: 0.1px solid #ad9f88;
+    border-top: none;
+    /* ou border-top: 0; --> Tirando a borda de cima */
+    border-left: none;
+    justify-content: center;
+}
+
+.conteudo-tres-quadrado-img {
+    display: flex;
+    flex-direction: column;
+    padding: 31px 0px 8px 0px;
+    margin: 0px;
+}
+
+.conteudo-tres-lista-quadrado {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    /* Deixa os itens alinhados no canto (inicio) do conteiner */
+}
+
+.conteudo-tres-lista-quadrado span {
+    display: block;
+    /* Faz com que cada palavra fique em uma linha separada */
 }
 
 .conteudo-tres-estatua {
