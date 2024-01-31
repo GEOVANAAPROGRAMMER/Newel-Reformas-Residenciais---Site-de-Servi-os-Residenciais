@@ -102,9 +102,7 @@ body {
 }
 
 .conteudo-dois-imagem {
-    border: 0.1px solid #ad9f88;
-    border-bottom: none;
-    /* ou border-bottom: 0; --> Tirando a borda de baixo */
+    border-right: 0.1px solid #ad9f88;
 }
 
 .conteudo-dois-textos {
@@ -147,7 +145,7 @@ body {
 }
 
 .conteudo-tres-item-casa {
-    padding: 20px 88px 74px 88px;
+    padding: 20px 97px 74px 97px;
     margin: 0px 0px 10px 80px;
     border: 0.1px solid #ad9f88;
     border-top: none;
@@ -177,7 +175,7 @@ body {
 }
 
 .conteudo-tres-item-quebra-cabeca {
-    padding: 20px 87px 74px 88px;
+    padding: 20px 97px 74px 97px;
     margin: 0px 0px 10px 0px;
     border: 0.1px solid #ad9f88;
     border-top: none;
@@ -209,20 +207,20 @@ body {
 }
 
 .conteudo-tres-item-quadrado {
-    padding: 20px 87px 74px 88px;
+    padding: 20px 97px 74px 97px;
     margin: 0px 0px 10px 0px;
     border: 0.1px solid #ad9f88;
     border-top: none;
     /* ou border-top: 0; --> Tirando a borda de cima */
     border-left: none;
-    justify-content: center;
+    justify-content: center
 }
 
 .conteudo-tres-quadrado-img {
     display: flex;
     flex-direction: column;
     width: 120px;
-    padding: 31px 0px 8px 0px;
+    padding: 25px 0px 14px 10px;
     margin: 0px;
 }
 
@@ -240,20 +238,20 @@ body {
 }
 
 .conteudo-tres-item-estatua {
-    padding: 20px 87px 74px 88px;
-    margin: 0px 0px 10px 0px;
+    padding: 20px 90px 74px 90px;
+    margin: 0px 80px 10px 0px;
     border: 0.1px solid #ad9f88;
     border-top: none;
     /* ou border-top: 0; --> Tirando a borda de cima */
     border-left: none;
-    justify-content: center;
+    justify-content: center
 }
 
-.conteudo-tres-qestatua-img {
+.conteudo-tres-estatua-img {
     display: flex;
     flex-direction: column;
     width: 120px;
-    padding: 31px 0px 8px 0px;
+    padding: 25px 0px 14px 10px;
     margin: 0px;
 }
 
@@ -269,3 +267,4 @@ body {
     display: block;
     /* Faz com que cada palavra fique em uma linha separada */
 }
+
