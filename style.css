@@ -159,9 +159,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 120px;
-    padding: 31px 0px 8px 0px;
+    padding: 31px 0px 8px 10px;
     margin: 0px;
-
 }
 
 .conteudo-tres-lista-casa {
@@ -170,7 +169,6 @@ body {
     margin: 0px;
     text-align: center;
     /* Deixa os itens alinhados no canto (inicio) do conteiner */
-
 }
 
 .conteudo-tres-lista-casa span {
